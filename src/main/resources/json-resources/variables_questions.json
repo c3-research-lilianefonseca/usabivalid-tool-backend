@@ -1,0 +1,40 @@
+{
+  "section": "Variables and Measurement",
+  "key": "VM",
+  "parentQuestions": [
+    {
+      "title": "4. Which variables will be measured during the assessment?",
+      "hint": "Note that the variables are associated with the attributes of usability. The ones that have not been filled with the goals descriptions should not have variables associated.",
+      "questions": [
+        {
+          "objectKey": "LRN",
+          "title": "Learnability: "
+        },
+        {
+          "objectKey": "EFF",
+          "title": "Efficiency: "
+        },
+        {
+          "objectKey": "USR",
+          "title": "User retention over time: "
+        },
+        {
+          "objectKey": "ERR",
+          "title": "Error rate: "
+        },
+        {
+          "objectKey": "STF",
+          "title": "Satisfaction: "
+        }
+      ]
+    },
+    {
+      "title": "5. How will the listed variables be obtained?",
+      "instruction": "Describe the methods and criteria for measuring each of the variables listed above."
+    },
+    {
+      "title": "6. Which of the suggested scales will be used?",
+      "hint": "Note that it is possible to choose multiple scales."
+    }
+  ]
+}

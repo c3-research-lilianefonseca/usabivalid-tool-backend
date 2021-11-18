@@ -1,0 +1,32 @@
+spring:
+  jpa:
+    show-sql: false
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/teste
+    username: postgres
+    password: banco123
+    continueOnError: true
+    initialSize: 0
+    timeBetweenEvictionRunsMillis: 5000
+    minEvictableIdleTimeMillis: 5000
+    minIdle: 0
+    initialization-mode: always
+
+logging:
+  level:
+    io:
+      swagger:
+        models:
+          parameters:
+            AbstractSerializableParameter: error
+    org:
+    hibernate:
+      SQL: DEBUG
+    type:
+      descriptor:
+        sql:
+          BasicBinder: TRACE

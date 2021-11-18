@@ -1,0 +1,13 @@
+package com.unicap.tcc.usability.api.properties;
+
+import lombok.Data;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
+
+@Component
+@ConfigurationProperties(prefix = "security")
+public @Data
+class SecurityProperties {
+    private String jwtExpiration;
+    private String jwtSignKey;
+}

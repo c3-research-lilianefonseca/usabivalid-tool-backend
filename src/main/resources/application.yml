@@ -1,0 +1,66 @@
+sendgrid:
+  api:
+    key: SG.QCSR6t8rQmKyF61p9impwg.cCy5GbEKPXOjnOpziPqpi4fARyGDtt4Ozw2tPSEKEq4
+
+server:
+  error:
+    include-stacktrace: on_trace_param
+  port: 8084
+  servlet:
+    context-path: /api/
+
+spring:
+  profiles:
+    active: prod
+  main:
+    allow-bean-definition-overriding: true
+  batch:
+    initialize-schema: always
+    job:
+      #Disable batch job's auto start
+      enabled: false
+  resources:
+    chain:
+      enabled: true
+  jpa:
+    hibernate:
+      naming_strategy: org.hibernate.cfg.DefaultNamingStrategy
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        temp:
+          use_jdbc_metadata_defaults: false
+
+  mail:
+    host: --AWS EMAIL REGION HERE--
+    password: --AWS EMAIL PASSWORD HERE--
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          connectiontimeout: 5000
+          starttls:
+            enable: true
+            required: true
+          timeout: 5000
+          writetimeout: 5000
+    username: --AWS EMAIL USERNAME HERE--
+
+aws:
+  access_key_id:
+  secret_access_key:
+
+
+s3:
+  bucket: --AWS BUCKET NAME HERE--
+  region: --AWS BUCKET REGION HERE--
+
+sas:
+  from: --EMAIL ADDRESS HERE--
+  from-name: Usability Validation Tool
+
+security:
+  jwt-expiration: 120
+  jwt-sign-key: n2r5u7x!A%D*G-KaPdSgVkYp3s6v9y/B?E(H+MbQeThWmZq4t7w!z%C&F)J@NcRf
+

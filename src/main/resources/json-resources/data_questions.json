@@ -1,0 +1,19 @@
+{
+  "section": "Data collection and data analysis",
+  "key": "DT",
+  "parentQuestions": [
+    {
+      "title": "22. What will be the data collection procedure?",
+      "placeHolder": "Describe the data collection procedure here"
+    },
+    {
+      "title": "23. How will the data collected be analyzed?",
+      "placeHolder": "Describe the procedure here"
+    },
+    {
+      "title": "24. Will statistical methods be used?",
+      "instruction": "If the answer is 'YES', describe the methods.",
+      "placeHolder": "Describe the methods here"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "section": "Threats to validity",
+  "key": "TH",
+  "parentQuestions": [
+    {
+      "title": "25. Are there any threats to the validity of the assessment?",
+      "questions": [
+        {
+          "title": "25.1 What are the threats to the validity of the assessment?",
+          "placeHolder": "Describe the threats here"
+        },
+        {
+          "title": "25.2 How will the threats to validity be controlled?",
+          "placeHolder": "Describe how the threats wil be controlled here"
+        },
+        {
+          "title": "25.3 Are there any limitations for the assessment?",
+          "placeHolder": "Describe the limitations here"
+        },
+        {
+          "title": "25.4 Are the ethical aspects of the assessment well defined for the participants?",
+          "placeHolder": "Describe how the ethical aspects are defined here"
+        },
+        {
+          "title": "25.5 What are the biases of the assessment, if any?",
+          "placeHolder": "Describe the bias here"
+        }
+      ]
+    }
+  ]
+}

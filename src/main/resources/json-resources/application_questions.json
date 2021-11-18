@@ -1,0 +1,56 @@
+{
+  "section": "Application",
+  "key": "AP",
+  "parentQuestions": [
+    {
+      "title": "1. What will be assessed?",
+      "questions": [
+        {
+          "title": "1.1 What is the name of the application?"
+        },
+        {
+          "title": "1.2 How would you describe the application?"
+        }
+      ]
+    },
+    {
+      "title": "2. Is it a smart city application? ",
+      "instruction": "To calculate the smart city factor of the application, choose 'YES' on the drop-down lists if the app meets each smart city functional requirement or 'NO' if otherwise.",
+      "hint": "",
+      "questions": [
+        {
+          "title": "2.1 Data Management: ",
+          "subTitle": "Does the application use NoSQL DBs for unstructured or semi-structured data, relational DBs for structured data, Big Data tools to analyze and process data or report and image generators for data visualization?"
+        },
+        {
+          "title": "2.2 Application Execution Environment: ",
+          "subTitle": "Does the platform offer an environment for the deployment of services and applications or a service for running applications developed with the platform's own tools?"
+        },
+        {
+          "title": "2.3 Sensor Network Management: ",
+          "subTitle": " Does the application manage sensors that collect data from the environment, sensors that verify the functioning of urban systems or sensors that monitor traffic flow?"
+        },
+        {
+          "title": "2.4 Data processing: ",
+          "subTitle": "Does the platform use inference machines, workflow processors or Big Data tools for processing large amounts of data?"
+        },
+        {
+          "title": "2.5 Data Access: ",
+          "subTitle": "Are the data collected available through open data portals in standardized formats and with associated descriptive metadata, well-defined APIs that facilitate the development of automated applications or publish / subscribe services?"
+        },
+        {
+          "title": "2.6 Service Management: ",
+          "subTitle": "Does the application use components for data processing such as inference machines and machine learning algorithms, components for the execution of workflows and user management services for the platform or deployment of services on the platform that are available for other city applications?"
+        },
+        {
+          "title": "2.7 Tools for Software Development: ",
+          "subTitle": "Does the platform use visual interfaces for the description of applications using the data sources and services available on the platform, tools for the description of workflows, tools for reporting and data analysis or a kit for the development of applications (Software Development Kit or SDK) with several integrated tools?"
+        },
+        {
+          "title": "2.8 Defining a City Model: ",
+          "subTitle": "Does the application offer representation of static aspects of the city, such as the city map with the location of streets and public facilities or representation of dynamic aspects of the city, such as the flow of vehicles and congestion zones at different times of the day and days of the week?"
+        }
+      ]
+    }
+  ]
+}
