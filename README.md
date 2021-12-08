@@ -40,8 +40,8 @@ Baixar e descompactar um dos pacotes (Win ou Linux 64-bit) da versão `Eclipse I
 Após abrir o Eclipse, importar projeto do Git:
 
 1. _File_ -> _Import..._ -> _Projects from Git_ -> _Clone URI_
-2. URI: `git@github.com:rodrigorjsf/tcc-usability-backend.git` -> _Next_
-3. Escolher _branch_ `master`
+2. URI: `https://github.com/c3-research-lilianefonseca/usabivalid-tool-backend.git` -> _Next_
+3. Escolher _branch_ `main`
 4. Local destination: _pasta-do-workspace_
 5. _Import as general project_ -> _Next_ -> _Finish_
 
@@ -56,15 +56,10 @@ Incluir `Run Configurations`:
 1. _**Maven Build**_ -> New launch configuration -> Name: `tcc-usability-backend [clean package]`, Base directory: `tcc-usability-backend`, Goals: `clean package`
 2. _**Java Application**_ -> New launch configuration -> Spring Boot, Project: `tcc-usability-backend`, Main class: `com\unicap\tcc\usability\api\ApiApplication`
 
-### 1.2- pgAdmin
 
-Para baixar a ferramenta pgAdmin, clique [aqui](https://www.pgadmin.org/).
-
-**Banco de Dados(Heroku):**
-
-1. host: `ec2-52-202-22-140.compute-1.amazonaws.com`
-2. port: `5432`
-3. database: `d7gjnr6jclad2i`
+**Configurar banco de dados**
+1. Instalar o docker e o docker-compose 
+2. Executar -> `docker-compose up` na pasta raiz do projeto, que contém o arquivo `docker-compose.yml`
 
 ## 2- Arquitetura do Sistema
 
